@@ -13,7 +13,7 @@ type PlayerListProps = {
 
 const PlayerList: React.FC<PlayerListProps> = ({ players }) => {
   return (
-    <div className="player-list p-4">
+    <div className="player-list p-4 bg-white">
       <h2 className="text-lg font-semibold mb-2">Players</h2>
       <ul className="space-y-1">
         {players.map((player) => (
